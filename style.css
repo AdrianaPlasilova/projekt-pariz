@@ -1,5 +1,5 @@
 html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+*, ::before ::after { box-sizing:inherit; }
 
 body {
     font-family: "Source Sans 3", sans-serif;
@@ -28,28 +28,37 @@ h3 {
     margin-top: 48px;
 }
 
+h4 {
+    color: #dc6aa1;
+    text-align: center; 
+    font-style: normal;
+    font-weight: normal;
+    
+    margin: 20px;
+}
+h5 {
+    color: #808080;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    
+    margin: 20px;
+}
+
 /* SEKCE */
 section {
     background-color: white;
     font-size: 24px;
     padding: 30px 50px;
-    margin-block: 20px;
+    margin: 20px;
     overflow: auto;
     width: 900px;
-    
-    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
 }
-.autor {
-    color: #dc6aa1;
-    text-align: center;
-    
-}
-.perex {
-    color: #808080;
-    font-size: 24px;
-    text-align: center;
-    
-}
+
 
 
 /* OBRÁZKY */
@@ -57,9 +66,8 @@ section {
 .foto-pariz {
     width: 300px;
     border-radius: 50%;
-    
-    
-    
+    margin: 0 auto;
+    display: block;
 }
 
 .foto-eiffelovka {
@@ -67,7 +75,7 @@ section {
     height: 225px;
     border-radius: 8px;
     float: right;
-   margin: 0 20px;
+   margin: 20px;
 }
 
 .foto-oblouk {
@@ -75,7 +83,7 @@ section {
     height: 225px;
     border-radius: 8px;
     float: left;
-    margin: 0 20px;
+    margin: 20px;
 }
 
 .foto-louvre {
@@ -83,7 +91,7 @@ section {
     height: 225px;
     border-radius: 8px;
     float: right;
-    margin: 0 20px;
+    margin: 20px;
 }
 
 .foto-montmartre {
@@ -91,7 +99,7 @@ section {
     height: 225px;
     border-radius: 8px;
     float: left;
-    margin: 0 20px;
+    margin: 20px;
     
 }
 
