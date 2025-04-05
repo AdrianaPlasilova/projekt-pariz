@@ -2,5 +2,31 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #cde4f9;
+    font-size: 20px;
+    line-height: 1.4;
+}
 
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+}
+h2{
+    font-family: "Playfair Display", serif;
+    line-height: 1.2;
+
+}
+h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    color: #dc6aa1;
+    line-height: 1.2;
+}
+section {
+    background-color: white;
+    font-size: 24px;
+    
 }
